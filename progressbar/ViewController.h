@@ -10,6 +10,17 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIProgressView *progressBar;
+@property (strong, nonatomic) IBOutlet UILabel *labelot;
+
+
+
+
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
+@property (strong, nonatomic) IBOutlet UILabel *labl2;
+
+@property (strong, nonatomic) IBOutlet UILabel *labl3;
+
 
 @end
 

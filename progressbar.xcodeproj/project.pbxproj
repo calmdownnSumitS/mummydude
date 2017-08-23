@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2821ADC31F1CBD2600F08023 /* viewcontroller2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2821ADC21F1CBD2600F08023 /* viewcontroller2.m */; };
+		282E87C61F1F2AD400968C84 /* backroundvideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E87C51F1F2AD400968C84 /* backroundvideoController.m */; };
+		282E87C81F1F2C5300968C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282E87C71F1F2C5300968C84 /* Main.storyboard */; };
+		282E87CB1F1F2E1600968C84 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E87CA1F1F2E1600968C84 /* AVFoundation.framework */; };
+		282E87CD1F1F302400968C84 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E87CC1F1F302400968C84 /* MediaPlayer.framework */; };
+		28553C8E1F1F4250002F6F99 /* FoodPack1_06_Videvo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 28553C8D1F1F4250002F6F99 /* FoodPack1_06_Videvo.mov */; };
+		28553C901F1F4724002F6F99 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28553C8F1F1F4724002F6F99 /* AVKit.framework */; };
 		28A991D41F1894B4008AEBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A991D31F1894B4008AEBE2 /* main.m */; };
 		28A991D71F1894B4008AEBE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A991D61F1894B4008AEBE2 /* AppDelegate.m */; };
 		28A991DA1F1894B4008AEBE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A991D91F1894B4008AEBE2 /* ViewController.m */; };
-		28A991DD1F1894B4008AEBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A991DB1F1894B4008AEBE2 /* Main.storyboard */; };
 		28A991E01F1894B4008AEBE2 /* progressbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28A991DE1F1894B4008AEBE2 /* progressbar.xcdatamodeld */; };
 		28A991E21F1894B4008AEBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A991E11F1894B4008AEBE2 /* Assets.xcassets */; };
 		28A991E51F1894B4008AEBE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A991E31F1894B4008AEBE2 /* LaunchScreen.storyboard */; };
 		28A991F01F1894B4008AEBE2 /* progressbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A991EF1F1894B4008AEBE2 /* progressbarTests.m */; };
+		28C14B051F1DF7C900A09844 /* 8659256133_5889f08fe8_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C14AFF1F1DF7C900A09844 /* 8659256133_5889f08fe8_b.jpg */; };
+		28C14B061F1DF7C900A09844 /* dal-fry-recipe13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C14B001F1DF7C900A09844 /* dal-fry-recipe13.jpg */; };
+		28C14B071F1DF7C900A09844 /* moong-dal-fry-recipe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C14B011F1DF7C900A09844 /* moong-dal-fry-recipe.jpg */; };
+		28C14B081F1DF7C900A09844 /* Sethji-Home-Made-Food-Restaurant-Menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C14B021F1DF7C900A09844 /* Sethji-Home-Made-Food-Restaurant-Menu.jpg */; };
+		28C14B0A1F1DF7C900A09844 /* Simulator Screen Shot Jul 17, 2017, 5.09.34 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 28C14B041F1DF7C900A09844 /* Simulator Screen Shot Jul 17, 2017, 5.09.34 PM.png */; };
+		28C14B0F1F1DFD4F00A09844 /* fb25f4d87d7d558bf498634792cc2df9--biryani-recipe-rice-recipes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C14B0B1F1DFD4F00A09844 /* fb25f4d87d7d558bf498634792cc2df9--biryani-recipe-rice-recipes.jpg */; };
+		28C14B111F1DFD4F00A09844 /* Poli-Recipe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C14B0D1F1DFD4F00A09844 /* Poli-Recipe.jpg */; };
+		28C14B121F1DFD4F00A09844 /* sankranti-special-til-poli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C14B0E1F1DFD4F00A09844 /* sankranti-special-til-poli.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2821ADC11F1CBD2600F08023 /* viewcontroller2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewcontroller2.h; sourceTree = "<group>"; };
+		2821ADC21F1CBD2600F08023 /* viewcontroller2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewcontroller2.m; sourceTree = "<group>"; };
+		282E87C41F1F2AD400968C84 /* backroundvideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backroundvideoController.h; sourceTree = "<group>"; };
+		282E87C51F1F2AD400968C84 /* backroundvideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = backroundvideoController.m; sourceTree = "<group>"; };
+		282E87C71F1F2C5300968C84 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		282E87CA1F1F2E1600968C84 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		282E87CC1F1F302400968C84 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		28553C8D1F1F4250002F6F99 /* FoodPack1_06_Videvo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = FoodPack1_06_Videvo.mov; sourceTree = "<group>"; };
+		28553C8F1F1F4724002F6F99 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		28A991CF1F1894B4008AEBE2 /* progressbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = progressbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A991D31F1894B4008AEBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28A991D51F1894B4008AEBE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28A991D61F1894B4008AEBE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28A991D81F1894B4008AEBE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		28A991D91F1894B4008AEBE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28A991DC1F1894B4008AEBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28A991DF1F1894B4008AEBE2 /* progressbar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = progressbar.xcdatamodel; sourceTree = "<group>"; };
 		28A991E11F1894B4008AEBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A991E41F1894B4008AEBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +64,14 @@
 		28A991EB1F1894B4008AEBE2 /* progressbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = progressbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A991EF1F1894B4008AEBE2 /* progressbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = progressbarTests.m; sourceTree = "<group>"; };
 		28A991F11F1894B4008AEBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C14AFF1F1DF7C900A09844 /* 8659256133_5889f08fe8_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8659256133_5889f08fe8_b.jpg; sourceTree = "<group>"; };
+		28C14B001F1DF7C900A09844 /* dal-fry-recipe13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dal-fry-recipe13.jpg"; sourceTree = "<group>"; };
+		28C14B011F1DF7C900A09844 /* moong-dal-fry-recipe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moong-dal-fry-recipe.jpg"; sourceTree = "<group>"; };
+		28C14B021F1DF7C900A09844 /* Sethji-Home-Made-Food-Restaurant-Menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sethji-Home-Made-Food-Restaurant-Menu.jpg"; sourceTree = "<group>"; };
+		28C14B041F1DF7C900A09844 /* Simulator Screen Shot Jul 17, 2017, 5.09.34 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot Jul 17, 2017, 5.09.34 PM.png"; sourceTree = "<group>"; };
+		28C14B0B1F1DFD4F00A09844 /* fb25f4d87d7d558bf498634792cc2df9--biryani-recipe-rice-recipes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fb25f4d87d7d558bf498634792cc2df9--biryani-recipe-rice-recipes.jpg"; sourceTree = "<group>"; };
+		28C14B0D1F1DFD4F00A09844 /* Poli-Recipe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Poli-Recipe.jpg"; sourceTree = "<group>"; };
+		28C14B0E1F1DFD4F00A09844 /* sankranti-special-til-poli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sankranti-special-til-poli.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28553C901F1F4724002F6F99 /* AVKit.framework in Frameworks */,
+				282E87CD1F1F302400968C84 /* MediaPlayer.framework in Frameworks */,
+				282E87CB1F1F2E1600968C84 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +95,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282E87C91F1F2E1600968C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28553C8F1F1F4724002F6F99 /* AVKit.framework */,
+				282E87CC1F1F302400968C84 /* MediaPlayer.framework */,
+				282E87CA1F1F2E1600968C84 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		28A991C61F1894B4008AEBE2 = {
 			isa = PBXGroup;
 			children = (
+				282E87C41F1F2AD400968C84 /* backroundvideoController.h */,
+				282E87C51F1F2AD400968C84 /* backroundvideoController.m */,
+				2821ADC11F1CBD2600F08023 /* viewcontroller2.h */,
+				2821ADC21F1CBD2600F08023 /* viewcontroller2.m */,
 				28A991D11F1894B4008AEBE2 /* progressbar */,
 				28A991EE1F1894B4008AEBE2 /* progressbarTests */,
 				28A991D01F1894B4008AEBE2 /* Products */,
+				282E87C91F1F2E1600968C84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,9 +135,9 @@
 				28A991D61F1894B4008AEBE2 /* AppDelegate.m */,
 				28A991D81F1894B4008AEBE2 /* ViewController.h */,
 				28A991D91F1894B4008AEBE2 /* ViewController.m */,
-				28A991DB1F1894B4008AEBE2 /* Main.storyboard */,
 				28A991E11F1894B4008AEBE2 /* Assets.xcassets */,
 				28A991E31F1894B4008AEBE2 /* LaunchScreen.storyboard */,
+				282E87C71F1F2C5300968C84 /* Main.storyboard */,
 				28A991E61F1894B4008AEBE2 /* Info.plist */,
 				28A991DE1F1894B4008AEBE2 /* progressbar.xcdatamodeld */,
 				28A991D21F1894B4008AEBE2 /* Supporting Files */,
@@ -100,6 +148,15 @@
 		28A991D21F1894B4008AEBE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28553C8D1F1F4250002F6F99 /* FoodPack1_06_Videvo.mov */,
+				28C14AFF1F1DF7C900A09844 /* 8659256133_5889f08fe8_b.jpg */,
+				28C14B001F1DF7C900A09844 /* dal-fry-recipe13.jpg */,
+				28C14B011F1DF7C900A09844 /* moong-dal-fry-recipe.jpg */,
+				28C14B021F1DF7C900A09844 /* Sethji-Home-Made-Food-Restaurant-Menu.jpg */,
+				28C14B041F1DF7C900A09844 /* Simulator Screen Shot Jul 17, 2017, 5.09.34 PM.png */,
+				28C14B0B1F1DFD4F00A09844 /* fb25f4d87d7d558bf498634792cc2df9--biryani-recipe-rice-recipes.jpg */,
+				28C14B0D1F1DFD4F00A09844 /* Poli-Recipe.jpg */,
+				28C14B0E1F1DFD4F00A09844 /* sankranti-special-til-poli.jpg */,
 				28A991D31F1894B4008AEBE2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -198,9 +255,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C14B071F1DF7C900A09844 /* moong-dal-fry-recipe.jpg in Resources */,
 				28A991E51F1894B4008AEBE2 /* LaunchScreen.storyboard in Resources */,
+				28C14B0F1F1DFD4F00A09844 /* fb25f4d87d7d558bf498634792cc2df9--biryani-recipe-rice-recipes.jpg in Resources */,
+				282E87C81F1F2C5300968C84 /* Main.storyboard in Resources */,
+				28553C8E1F1F4250002F6F99 /* FoodPack1_06_Videvo.mov in Resources */,
+				28C14B051F1DF7C900A09844 /* 8659256133_5889f08fe8_b.jpg in Resources */,
+				28C14B081F1DF7C900A09844 /* Sethji-Home-Made-Food-Restaurant-Menu.jpg in Resources */,
+				28C14B121F1DFD4F00A09844 /* sankranti-special-til-poli.jpg in Resources */,
+				28C14B0A1F1DF7C900A09844 /* Simulator Screen Shot Jul 17, 2017, 5.09.34 PM.png in Resources */,
+				28C14B061F1DF7C900A09844 /* dal-fry-recipe13.jpg in Resources */,
+				28C14B111F1DFD4F00A09844 /* Poli-Recipe.jpg in Resources */,
 				28A991E21F1894B4008AEBE2 /* Assets.xcassets in Resources */,
-				28A991DD1F1894B4008AEBE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A991DA1F1894B4008AEBE2 /* ViewController.m in Sources */,
+				2821ADC31F1CBD2600F08023 /* viewcontroller2.m in Sources */,
 				28A991D71F1894B4008AEBE2 /* AppDelegate.m in Sources */,
 				28A991E01F1894B4008AEBE2 /* progressbar.xcdatamodeld in Sources */,
 				28A991D41F1894B4008AEBE2 /* main.m in Sources */,
+				282E87C61F1F2AD400968C84 /* backroundvideoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +312,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		28A991DB1F1894B4008AEBE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28A991DC1F1894B4008AEBE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28A991E31F1894B4008AEBE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,6 +480,7 @@
 				28A991F61F1894B4008AEBE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28A991F71F1894B4008AEBE2 /* Build configuration list for PBXNativeTarget "progressbarTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +489,7 @@
 				28A991F91F1894B4008AEBE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
